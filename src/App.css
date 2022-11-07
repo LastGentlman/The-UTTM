@@ -6,9 +6,14 @@
 }
 
 .container{
-  border: 1px solid salmon;
+  border: 1px solid lightblue;
   width: auto;
   position: relative;
   display: flex;
   flex-direction: column;
+  padding: 1em;
+}
+
+.container h3 {
+  text-decoration: underline;
 }
